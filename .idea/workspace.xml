@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/作业/chp15/5.3.2 Apriori.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/FP-Growth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/Mlxtend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/apriori.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/apriori_rules.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/fpgrowth_rules.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/goods_new.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp15/过程.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/7.2 数据探索.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/7.3 数据预处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/7.4 分析与建模.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/7.5 结果分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/jc_content_viewlog.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/meal_dishes_detail.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/meal_order_detail.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp16/meal_order_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Python\作业\chp16" />
       <recent name="D:\GitHub\Python\作业\chp15" />
       <recent name="D:\application\Github\Python\作业\chp14" />
     </key>
@@ -79,6 +79,7 @@
       <workItem from="1733366729188" duration="3500000" />
       <workItem from="1733797038703" duration="1478000" />
       <workItem from="1733805873634" duration="1579000" />
+      <workItem from="1733815990180" duration="641000" />
     </task>
     <servers />
   </component>
@@ -91,6 +92,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$Mlxtend.coverage" NAME="Mlxtend 覆盖结果" MODIFIED="1733807201997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
     <SUITE FILE_PATH="coverage/Python$USERINFO.coverage" NAME="USERINFO 覆盖结果" MODIFIED="1733797914647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp14" />
+    <SUITE FILE_PATH="coverage/Python$7_2_.coverage" NAME="7.2 数据探索 覆盖结果" MODIFIED="1733816567614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp16" />
     <SUITE FILE_PATH="coverage/Python$FP_Growth.coverage" NAME="FP-Growth 覆盖结果" MODIFIED="1733807381196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
     <SUITE FILE_PATH="coverage/Python$mlxtend.coverage" NAME="mlxtend 覆盖结果" MODIFIED="1733806644053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
   </component>
