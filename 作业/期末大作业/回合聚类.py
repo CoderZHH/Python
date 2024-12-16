@@ -12,22 +12,25 @@ matplotlib.rcParams['font.sans-serif'] = ['SimHei']  # 设置中文字体
 matplotlib.rcParams['axes.unicode_minus'] = False  # 解决负号不能显示的问题
 
 # Step 1: 加载数据
-matches_path = './Wimbledon_featured_matches.xlsx'
+# matches_path = './Wimbledon_featured_matches.xlsx'
+matches_path = './Wimbledon_with_time_features.xlsx'
 matches_data = pd.read_excel(matches_path)
 
 # Step 2: 选择回合级别的原始特征
 round_cols = ['set_no', 'game_no', 'point_no', 'rally_count', 'speed_mph',
               'p1_distance_run', 'p2_distance_run', 'p1_ace', 'p2_ace',
-              'p1_unf_err', 'p2_unf_err']
+              'p1_unf_err', 'p2_unf_err', 'rolling_rally_count', 'time_diff']
 round_stats = matches_data[round_cols].copy()
 
 # Step 3: 补充缺失值进行处理：分组均值补充 + 全局均值补充
-round_stats['speed_mph'] = round_stats.groupby(['set_no', 'game_no', 'point_no'])['speed_mph'].transform(lambda x: x.fillna(x.mean()))
+round_stats['speed_mph'] = round_stats.groupby(['set_no', 'game_no', 'point_no'])['speed_mph'].transform(
+    lambda x: x.fillna(x.mean()))
 round_stats['speed_mph'] = round_stats['speed_mph'].fillna(round_stats['speed_mph'].mean())
 
 # Step 4: 创建回合级别的特征工程
 # 每击球的平均跑动距离
-round_stats['average_distance_per_rally'] = (round_stats['p1_distance_run'] + round_stats['p2_distance_run']) / (round_stats['rally_count'] + 1)
+round_stats['average_distance_per_rally'] = (round_stats['p1_distance_run'] + round_stats['p2_distance_run']) / (
+        round_stats['rally_count'] + 1)
 
 # 跑动距离差异
 round_stats['distance_diff'] = abs(round_stats['p1_distance_run'] - round_stats['p2_distance_run'])
@@ -42,11 +45,12 @@ round_stats['is_key_point'] = ((round_stats['p1_ace'] > 0) | (round_stats['p2_ac
 
 # 改进 unf_err_to_ace_ratio 的逻辑，避免分母为零
 round_stats['unf_err_to_ace_ratio'] = (round_stats['p1_unf_err'] + round_stats['p2_unf_err']) / (
-    round_stats['p1_ace'] + round_stats['p2_ace'] + 1)
+        round_stats['p1_ace'] + round_stats['p2_ace'] + 1)
 
 # Step 5: 选择用于聚类的特征
 features_for_clustering = round_stats[['rally_count', 'speed_mph', 'average_distance_per_rally',
-                                        'distance_diff', 'ace_efficiency', 'unf_err_to_ace_ratio','is_key_point']]
+                                       'ace_efficiency', 'unf_err_to_ace_ratio', 'is_key_point',
+                                       'rolling_rally_count']]
 
 # Step 6: 特征标准化
 scaler = StandardScaler()
@@ -68,7 +72,7 @@ plt.title('肘部法则确定最佳簇数量', fontsize=14)
 plt.show()
 
 # Step 8: 应用KMeans进行聚类
-optimal_clusters = 3  # 可根据肘部图调整
+optimal_clusters = 6  # 可根据肘部图调整
 kmeans = KMeans(n_clusters=optimal_clusters, random_state=42)
 round_stats['Cluster'] = kmeans.fit_predict(features_scaled)
 
@@ -108,7 +112,6 @@ ax.set_zlabel('PCA 组件 3', fontsize=10)
 ax.set_title('回合表现聚类结果 (3D 可视化)', fontsize=12)
 plt.legend()
 plt.show()
-
 
 # 计算每个簇的特征均值
 cluster_summary = round_stats.groupby('Cluster')[features_for_clustering.columns].mean()
