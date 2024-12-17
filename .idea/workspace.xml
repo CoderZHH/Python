@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/作业/期末大作业/Wimbledon_with_time_features.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/期末大作业/时间序列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/期末大作业/过程.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.1 数据清洗.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.2 数据探索.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.3 属性构造.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.3.1 基于物品的协同过滤算法的推荐模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.3.2 基于流行度的推荐算法模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/10.4 模型评价.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/UBCF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/data/media_index.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/data/table_livelabel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/data/test_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/chp18/data/train_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/期末大作业/Wimbledon_featured_matches.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/作业/期末大作业/Wimbledon_featured_matches.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/期末大作业/回合聚类.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/期末大作业/回合聚类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/期末大作业/回合聚类结果.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/作业/期末大作业/回合聚类结果.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/期末大作业/查看缺失值.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/期末大作业/查看缺失值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/期末大作业/过程.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +80,7 @@
       <recent name="F:\GitHub\Python\作业\期末大作业" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\Python\作业\chp18\data" />
       <recent name="F:\GitHub\Python\作业\chp17" />
       <recent name="D:\GitHub\Python\作业\chp16" />
       <recent name="D:\GitHub\Python\作业\chp15" />
@@ -99,6 +105,7 @@
       <workItem from="1734315938635" duration="2613000" />
       <workItem from="1734327198843" duration="5438000" />
       <workItem from="1734355719649" duration="10639000" />
+      <workItem from="1734421436088" duration="3538000" />
     </task>
     <servers />
   </component>
@@ -109,10 +116,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$10_2_1_.coverage" NAME="10.2.1 数据清洗 覆盖结果" MODIFIED="1734421710700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$Mlxtend.coverage" NAME="Mlxtend 覆盖结果" MODIFIED="1733807201997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
     <SUITE FILE_PATH="coverage/Python$USERINFO.coverage" NAME="USERINFO 覆盖结果" MODIFIED="1733797914647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp14" />
     <SUITE FILE_PATH="coverage/Python$7_2_.coverage" NAME="7.2 数据探索 覆盖结果" MODIFIED="1733816692930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp16" />
+    <SUITE FILE_PATH="coverage/Python$10_2_2_.coverage" NAME="10.2.2 数据探索 覆盖结果" MODIFIED="1734423014198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$FP_Growth.coverage" NAME="FP-Growth 覆盖结果" MODIFIED="1733807381196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
+    <SUITE FILE_PATH="coverage/Python$10_2_3_.coverage" NAME="10.2.3 属性构造 覆盖结果" MODIFIED="1734424736746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$.coverage" NAME="回合聚类 覆盖结果" MODIFIED="1734368743799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/期末大作业" />
     <SUITE FILE_PATH="coverage/Python$mlxtend.coverage" NAME="mlxtend 覆盖结果" MODIFIED="1733806644053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
   </component>
