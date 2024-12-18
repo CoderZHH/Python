@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.1 数据清洗.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.2 数据探索.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.2.3 属性构造.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.3.1 基于物品的协同过滤算法的推荐模型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.3.2 基于流行度的推荐算法模型.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/10.4 模型评价.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/UBCF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/data/media_index.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/data/table_livelabel.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/data/test_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/chp18/data/train_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/期末大作业/过程.docx" beforeDir="false" />
-    </list>
+    <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +92,7 @@
       <workItem from="1734327198843" duration="5438000" />
       <workItem from="1734355719649" duration="10639000" />
       <workItem from="1734421436088" duration="3538000" />
+      <workItem from="1734486506084" duration="16000" />
     </task>
     <servers />
   </component>
