@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="" />
+    <list default="true" id="97e24b76-3075-46b1-a0ac-946d93e47cee" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/作业/期末大作业/关联规则研究（余浩）.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/期末大作业/回合聚类（张航杰）.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/期末大作业/张航杰，余浩，马东伦——网球比赛回合模式与球员打法研究.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/期末大作业/球员打法聚类研究（马东伦）.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/期末大作业/回合聚类.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/期末大作业/时间序列上可视化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/期末大作业/查看缺失值.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/期末大作业/选手聚类.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -52,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/GitHub/Python/作业/期末大作业&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/GitHub/WorldQ&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +104,16 @@
       <workItem from="1734355719649" duration="10639000" />
       <workItem from="1734421436088" duration="3538000" />
       <workItem from="1734486506084" duration="16000" />
+      <workItem from="1734517095490" duration="2619000" />
+      <workItem from="1734962853143" duration="5112000" />
+      <workItem from="1735029171166" duration="793000" />
+      <workItem from="1735487171045" duration="617000" />
+      <workItem from="1735487830092" duration="1019000" />
+      <workItem from="1735544674173" duration="17000" />
+      <workItem from="1735544801937" duration="12000" />
+      <workItem from="1735544988123" duration="26000" />
+      <workItem from="1735623779732" duration="170000" />
+      <workItem from="1735633135820" duration="9000" />
     </task>
     <servers />
   </component>
@@ -103,14 +124,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$10_2_1_.coverage" NAME="10.2.1 数据清洗 覆盖结果" MODIFIED="1734421710700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$Mlxtend.coverage" NAME="Mlxtend 覆盖结果" MODIFIED="1733807201997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
     <SUITE FILE_PATH="coverage/Python$USERINFO.coverage" NAME="USERINFO 覆盖结果" MODIFIED="1733797914647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp14" />
+    <SUITE FILE_PATH="coverage/Python$FP_Growth.coverage" NAME="FP-Growth 覆盖结果" MODIFIED="1733807381196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
+    <SUITE FILE_PATH="coverage/Python$xxx.coverage" NAME="xxx 覆盖结果" MODIFIED="1735488842757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/期末大作业" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="时间序列上可视化 覆盖结果" MODIFIED="1735029190246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/期末大作业" />
+    <SUITE FILE_PATH="coverage/Python$mlxtend.coverage" NAME="mlxtend 覆盖结果" MODIFIED="1733806644053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
+    <SUITE FILE_PATH="coverage/Python$10_2_1_.coverage" NAME="10.2.1 数据清洗 覆盖结果" MODIFIED="1734421710700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
+    <SUITE FILE_PATH="coverage/Python$10_3_1_.coverage" NAME="10.3.1 基于物品的协同过滤算法的推荐模型 覆盖结果" MODIFIED="1734517386410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$7_2_.coverage" NAME="7.2 数据探索 覆盖结果" MODIFIED="1733816692930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp16" />
     <SUITE FILE_PATH="coverage/Python$10_2_2_.coverage" NAME="10.2.2 数据探索 覆盖结果" MODIFIED="1734423014198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
-    <SUITE FILE_PATH="coverage/Python$FP_Growth.coverage" NAME="FP-Growth 覆盖结果" MODIFIED="1733807381196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
+    <SUITE FILE_PATH="coverage/Python$10_4_.coverage" NAME="10.4 模型评价 覆盖结果" MODIFIED="1734519218960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
     <SUITE FILE_PATH="coverage/Python$10_2_3_.coverage" NAME="10.2.3 属性构造 覆盖结果" MODIFIED="1734424736746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="回合聚类 覆盖结果" MODIFIED="1734368743799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/期末大作业" />
-    <SUITE FILE_PATH="coverage/Python$mlxtend.coverage" NAME="mlxtend 覆盖结果" MODIFIED="1733806644053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp15" />
+    <SUITE FILE_PATH="coverage/Python$10_3_2_.coverage" NAME="10.3.2 基于流行度的推荐算法模型 覆盖结果" MODIFIED="1734519732278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/chp18" />
   </component>
 </project>
